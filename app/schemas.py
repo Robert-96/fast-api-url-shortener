@@ -15,4 +15,7 @@ class URL(URLBase):
 
 class URLInfo(URL):
     url: str
+
+
+class URLAdminInfo(URLInfo):
     admin_url: str
