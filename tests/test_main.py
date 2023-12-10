@@ -116,6 +116,9 @@ def test_delete_url(test_client):
     peek_response = peek_url(test_client, url_key)
     assert peek_response.status_code == 404
 
+    admin_response = test_client.get(f"/admin/{secret_key}")
+    assert admin_response.status_code == 404
+
 
 def test_delete_url_for_inexistent_url(test_client):
     delete_response = test_client.delete("/admin/NOT-APPLICABLE")
