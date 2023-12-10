@@ -8,6 +8,7 @@ class URLBase(BaseModel):
 class URL(URLBase):
     is_active: bool
     clicks: int
+    key: str
 
     class Config:
         orm_mode = True
@@ -18,4 +19,5 @@ class URLInfo(URL):
 
 
 class URLAdminInfo(URLInfo):
+    secret_key: str
     admin_url: str
