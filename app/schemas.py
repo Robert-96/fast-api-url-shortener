@@ -10,8 +10,8 @@ class URL(URLBase):
     clicks: int
     key: str
 
-    class Config:
-        orm_mode = True
+    class ConfigDict:
+        from_attributes = True
 
 
 class URLInfo(URL):
