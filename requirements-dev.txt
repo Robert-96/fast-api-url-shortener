@@ -1,2 +1,2 @@
-fastapi[all]==0.104.1
+fastapi[all]==0.115.14
 pytest==7.4.0
