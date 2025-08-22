@@ -94,7 +94,7 @@ def test_get_admin_info(test_client):
 
 
 def test_get_admin_info_with_inexistent_url(test_client):
-    admin_response = test_client.get(f"/admin/NOT-APPLICABLE")
+    admin_response = test_client.get("/admin/NOT-APPLICABLE")
 
     assert admin_response.status_code == 404
 
