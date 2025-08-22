@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: '32 11 * * 1'
 
-permissions: read-all
+permissions: {}
 
 jobs:
   analyze:
