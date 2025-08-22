@@ -2,7 +2,7 @@ name: Main
 
 on: [push]
 
-permissions: read-all
+permissions: {}
 
 jobs:
   lint:
