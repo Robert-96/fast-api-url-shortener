@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Install Dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
@@ -16,11 +16,11 @@ pip install -r requirements.txt
 
 To start the development server, run the following command:
 
-```
+```bash
 uvicorn app.main:app --reload
 ```
 
-Once the server is up and running, open http://localhost:8000 in your browser. You can also access the Swagger UI documentation at http://127.0.0.1:8000/docs.
+Once the server is up and running, open <http://localhost:8000> in your browser. You can also access the Swagger UI documentation at <http://127.0.0.1:8000/docs>.
 
 ## License
 
