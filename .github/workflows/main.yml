@@ -8,9 +8,6 @@ jobs:
   lint:
     runs-on: ubuntu-latest
 
-    # TODO: Remove this suppression once super-linter is properly configured and all pylint violations have been resolved.
-    continue-on-error: true 
-    
     permissions:
       contents: read
       packages: read
