@@ -2,5 +2,5 @@ fastapi==0.116.1
 pydantic-settings==2.10.1
 uvicorn==0.35.0
 sqlalchemy==2.0.43
-python-dotenv==0.21.0
+python-dotenv==1.1.1
 validators==0.35.0
