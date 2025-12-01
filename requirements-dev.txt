@@ -1,2 +1,2 @@
-fastapi[all]==0.121.1
+fastapi[all]==0.123.0
 pytest==9.0.0
